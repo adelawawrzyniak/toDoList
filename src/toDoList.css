@@ -2,33 +2,40 @@ form {
   display: flex;
   padding: 10px;
 }
-.wrapper {
+.thelist {
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.input {
-  margin-right: 10px;
-}
 
-.input[type=checkbox]:checked .complete{
-	text-decoration: strikethrough;
-}
-
-.frame {
-  width: 40vw;
-  max-width: 400px;
-}
 .header {
   display: inline;
   text-align: center;
-}
-.list-wrapper {
-  max-height: 200px;
-  overflow-y: auto;
 }
 
 ul {
     list-style-type:none;
 }
+
+button {
+	background-color: #5497AF;
+	border: none;
+	padding: 5px;
+	font-size: 10px;
+	margin: 10px;
+	align: right;
+	color: #FFF;
+	
+}
+
+#submit:hover{
+	cursor: pointer;
+	background-color: #759FAF;
+}
+
+#delete:hover{
+	cursor: pointer;
+	background-color: #a83a32;
+}
+
